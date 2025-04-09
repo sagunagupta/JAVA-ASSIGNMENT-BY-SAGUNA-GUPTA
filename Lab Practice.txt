@@ -1,0 +1,43 @@
+package LAB_PRACTICE;
+class Student {
+    String name, section;
+    int roll_no;
+
+    void Setter(String name, String section, int roll_no){
+        this.name= name;
+        this.section=section;
+        this.roll_no=roll_no;
+    }
+    void Getter(){
+        System.out.println("The name of the student is :- " + name);
+        System.out.println("The section of the student is :- " + section);
+        System.out.println("The roll_no of the student is :- " + roll_no );
+    }
+    }
+    class Course{
+    String coursename;
+    int course_id;
+
+    void Setter(String coursename , int course_id ){
+        this.coursename=coursename;
+        this.course_id=course_id;
+
+    }
+    void Getter(){
+            System.out.println("Your course name is :- " + coursename);
+            System.out.println("Your course_id is :- " + course_id);
+        }
+        public static void main(String[] args) {
+        Student s1 = new Student();
+        s1.Setter("Sudanshu", "A1", 47);
+        s1.Getter();
+
+        Course C1 = new Course();
+        C1.Setter("Cse", 21);
+        C1.Getter();
+
+        }
+
+}
+public class Experiment1 {
+}

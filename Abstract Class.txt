@@ -1,0 +1,22 @@
+package Abstract_Class;
+
+abstract class A {
+    abstract void logic();
+    abstract void logic2();
+    void fun(){
+        System.out.println("Hello");
+    }
+
+}
+public class Test extends A{
+    void logic(){
+        System.out.println("Logic Method");
+    }
+    void logic2(){
+        System.out.println("logic 2 method");
+    }
+
+    public static void main(String[] args) {
+
+    }
+}

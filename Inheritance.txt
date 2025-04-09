@@ -1,0 +1,17 @@
+package MultipleInheritence;
+
+class A {
+    void show(){
+        System.out.println("Hello from A");
+    }}
+class B extends A{
+    void show() {
+        System.out.println("Hello from B");
+    }
+}
+public class inherit{
+    public static void main(String[] args) {
+        A a = new B();
+        a.show();
+    }
+}

@@ -1,0 +1,10 @@
+public class ARRAY_1{  // Class name follows Java naming conventions
+    public static void main(String[] args) {
+        int []arr= {12, 14, 15, 25, 30, 35};
+
+        // Using enhanced for loop for better readability
+        for (int num : arr) {
+            System.out.println(num);
+        }
+    }
+}
